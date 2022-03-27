@@ -3,17 +3,22 @@
 
 ## <img width="35" alt="about" src="https://uxwing.com/wp-content/themes/uxwing/download/07-web-app-development/programmer.png"> About me
 
-<img align="right" width="370" src="https://i2.wp.com/allhtaccess.info/wp-content/uploads/2018/03/programming.gif?fit=1281%2C716&ssl=1" />
-
 ```csharp
 class Person {
    string name = "Douglas Santos";
    int age = 29;
    string location = "Belo Horizonte, MG";
-   List<string> acknowledgements = new List<string> { "Backend", "Mobile" };
+   List<string> acknowledgements = new List<string> 
+   { 
+      ".NET Core", 
+      "SwiftUI" 
+   };
 
-   string primarySkillset = "ALGUMAS HABILIDADES";
-   List<string> languages = new List<string> { ".Net", "Swifft", "SwiftUI" } ;
+   List<string> languages = new List<string> 
+   { 
+      "C#", 
+      "Swifft",
+   };
 }
 ```
 
