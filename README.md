@@ -1,23 +1,26 @@
 ### Console.WriteLine("Hello World!");
 
 
-## <img width="35" alt="about" src="https://uxwing.com/wp-content/themes/uxwing/download/07-web-app-development/programmer.png"> About me
+## <img width="35" alt="about" src="https://raw.githubusercontent.com/douglasgustavo/douglasgustavo/main/sobre.png"> About me
 
 ```csharp
-class Person {
+class Person : Developer 
+{
    string name = "Douglas Santos";
-   int age = 29;
+   int age = 30;
    string location = "Belo Horizonte, MG";
+   
    List<string> acknowledgements = new List<string> 
    { 
-      ".NET Core", 
-      "SwiftUI" 
+      ".NET Core",
+      "SwiftUI"
+      "UIKit"
    };
 
    List<string> languages = new List<string> 
    { 
       "C#", 
-      "Swifft",
+      "Swift",
    };
 }
 ```
