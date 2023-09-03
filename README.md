@@ -9,7 +9,7 @@ import Life
 class Person : Developer
 {
     let name: String = "Douglas Santos"
-    let age: Int = 30
+    let age: Int = 31
     let location: String = "Belo Horizonte, MG - Brazil"
     
     let programmingLanguages: [String] = [
